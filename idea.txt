@@ -1,0 +1,5 @@
+bonus:
+	- initialize the adjacent array (17e6 line)
+	- get the followed pages by the given id 
+	- for each followed page -> see who from the user follow it and increment it's score
+	- final loop to print whose score >= threshold
