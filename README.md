@@ -34,18 +34,19 @@ then print from the multimap
 
 ![](Screenshot%20from%202022-05-24%2019-28-21.png)
 
-### Second point.
+### Second point
 
 We have a vector called `IM` holds the pages that the given Id follow
 thes pages are imporatnt in the next step
 as if other users follow a number of pages from `IM` vector it means that those users follow common pages with the given Id.
 
-The `IM` vector and the `content2` vectors are sorted as `strings`
-So, when we search by j's id in IM in i's id in content2 vector if we find the element we take the user (from column one ) and put it inside vetor called `my_vector` and if it already exist we increment the same index in array `score` by one.
+The `IM` vector and the `content2` vectors are sorted.
 
-if we didn't find the element in second column in content vectro then we increment j++ as we won't find it anymore.
+So, when we search by j's id in `IM` in i's id in `content2` vector if we find the element we take the user (from column one) and put it inside vector called `my_vector` and if it already exist we increment the same index in array `score` by one.
 
-That make us loop on content vector only one time.
+if we didn't find the element in second column in content vector then we increment j++ as we won't find it anymore.
+
+Sorting `content2` vector according to the second column and sorting `IM` make us loop on content vector only one time.
 
 If the score of the user is equal to or greater than threshold we print that user as suggested friend to the given id.
 
