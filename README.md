@@ -1,7 +1,5 @@
 # Twitter-Followers
 
-## Advanced Algorithm’s Project
-
 Twitter Followers Project In this project, we are given a comma separated file to represent some twitter users and the users they follow. Each row represents a certain user’s id and the id of another user he/she follows.
 
 ```
