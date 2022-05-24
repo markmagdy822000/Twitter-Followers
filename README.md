@@ -56,9 +56,10 @@ If the score of the user is equal to or greater than threshold we print that use
 We took O(E\*log(E)) in the first point as insert element into tree and
 O(Nlog(N)) to insert ids into multimap.
 
-In the second point the complexity is n\*m were
+In the second point the complexity is O(N\*M) were
 
 - `N` is the number of different ids
   (N is around 81,000)
 
 - `E` is the number of relations between the ids (E is about 1,700,000 relation)
+- `M`  is the number of ids in my_vector
