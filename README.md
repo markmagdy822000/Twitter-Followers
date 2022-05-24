@@ -12,7 +12,7 @@ Twitter Followers Project In this project, we are given a comma separated file t
 1,6 //user with id = 1 follows the user with id = 6
 ```
 
-- We make a program that stores this data in a `2d-vector ` that helps the program to retrieve the `Top-influencer` that has the highest number of followers, when required, and then the next Top-influencer and so on.
+- We make a program that stores this data from `csv file` in a `2d-vector ` that helps the program to retrieve the `Top-influencer` that has the highest number of followers, when required, and then the next Top-influencer and so on.
 
 - We take a twitter account id from the user and calculate its closest group of twitter users to recommend as a new friend. Closest means they have at least a threshold number of twitter accounts in common.
 
