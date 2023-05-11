@@ -40,7 +40,7 @@ as if other users follow a number of pages from `IM` vector it means that those 
 
 The `IM` vector and the `content2` vectors are sorted.
 
-So, when we search by j's id in `IM` in i's id in `content2` vector if we find the element we take the user (from column one) and put it inside vector called `my_vector` and if it already exist we increment the same index in array `score` by one.
+So, when we search by j-th id in `IM` in i-th id in `content2` vector if we find the element we take the user (from column one) and put it inside vector called `my_vector` and if it already exist we increment the same index in array `score` by one.
 
 if we didn't find the element in second column in content vector then we increment j++ as we won't find it anymore.
 
